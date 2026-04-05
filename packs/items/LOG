@@ -1,0 +1,7 @@
+2026/04/04-07:35:50.663 8318 Recovering log #130
+2026/04/04-07:35:50.668 8318 Delete type=0 #130
+2026/04/04-07:35:50.668 8318 Delete type=3 #128
+2026/04/04-07:37:04.725 8ad4 Level-0 table #135: started
+2026/04/04-07:37:04.725 8ad4 Level-0 table #135: 0 bytes OK
+2026/04/04-07:37:04.727 8ad4 Delete type=0 #133
+2026/04/04-07:37:04.731 8ad4 Manual compaction at level-0 from '!folders!MMfkdIUbwOCX551a' @ 72057594037927935 : 1 .. '!items!Td01XkQJdlzs8f9Q' @ 0 : 0; will stop at (end)
