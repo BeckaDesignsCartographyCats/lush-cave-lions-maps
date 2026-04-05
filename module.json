@@ -1,0 +1,159 @@
+{
+  "id": "lush-cave-lions-maps",
+  "title": "Lush Cave Lions Maps",
+  "version": "0.9.9",
+  "manifest": "https://github.com/BeckaDesignsCartographyCats/lush-cave-lions-maps/releases/latest/download/module.json",
+  "download": "https://github.com/BeckaDesignsCartographyCats/lush-cave-lions-maps/releases/download/0.9.9/module.zip",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p style=\"text-align:justify\">This module contains all maps, creatures, items and plot hooks for Becka_Tigress's Lush Lion's Patreon tier. The sound modules used in all the maps have been added as a recommendation for those wanting a bit more immersion! Feel free to not use them, it will not hurt the map experience!</p>",
+  "authors": [
+    {
+      "name": "Becka_Tigeress",
+      "url": "https://beccaschneller.wixsite.com/tigeressdesigns",
+      "discord": "beckatigeress4184",
+      "flags": {}
+    },
+    {
+      "name": "Garrus_2",
+      "discord": "garrus_2",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "maps",
+      "label": "Maps",
+      "banner": "modules/lush-cave-lions-maps/assets/banners/Tiers Foundry Jungle.jpg",
+      "path": "packs/maps",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "creatures",
+      "label": "Creatures",
+      "banner": "modules/lush-cave-lions-maps/assets/banners/Tiers Foundry Jungle.jpg",
+      "path": "packs/creatures",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "plothooks",
+      "label": "Quests,Towns, and Monsters",
+      "banner": "modules/lush-cave-lions-maps/assets/banners/Tiers Foundry Jungle.jpg",
+      "path": "packs/plothooks",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "items",
+      "label": "Special items",
+      "banner": "modules/lush-cave-lions-maps/assets/banners/Tiers Foundry Jungle.jpg",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "abilities",
+      "label": "Creature Abilities",
+      "banner": "modules/lush-cave-lions-maps/assets/banners/Tiers Foundry Jungle.jpg",
+      "path": "packs/abilities",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Lush Cave Lion",
+      "sorting": "m",
+      "color": "#007c0a",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Lush Cave Lion Maps",
+          "sorting": "a",
+          "color": "#88e788",
+          "packs": [
+            "maps"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Monthly Creatures",
+          "sorting": "a",
+          "color": "#88e788",
+          "packs": [
+            "creatures",
+            "abilities"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Monthly Story Starters",
+          "sorting": "a",
+          "color": "#88e788",
+          "packs": [
+            "plothooks"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Special Items",
+          "sorting": "a",
+          "color": "#88e788",
+          "packs": [
+            "items"
+          ],
+          "folders": []
+        }
+      ]
+    }
+  ],
+  "relationships": {
+    "recommends": [
+      {
+        "id": "gAudioBundle-1",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "gAudioBundle-2",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "gAudioBundle-3",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "gAudioBundle-4",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  }
+}
